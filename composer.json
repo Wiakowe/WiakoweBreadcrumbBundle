@@ -7,8 +7,8 @@
     "target-dir": "Wiakowe/BreadcrumbBundle",
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": ">=2.0.0,<=2.1-dev",
-        "symfony/twig-bridge": ">=2.0.0,<=2.1-dev"
+        "symfony/framework-bundle": ">=2.0.0,<=2.2-dev",
+        "symfony/twig-bridge": ">=2.0.0,<=2.2-dev"
     },
     "minimum-stability": "dev",
     "extra": {
