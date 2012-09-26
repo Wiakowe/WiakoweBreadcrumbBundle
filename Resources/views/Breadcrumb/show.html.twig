@@ -5,13 +5,12 @@
                 <span itemprop="title">{{ entry.name|trans }}</span>
             </li>
         {% else %}
-            <li>
+            <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
                 <a href="{{ path(entry.link, entry.params)}}" itemprop="url">
                     <span itemprop="title">{{ entry.name|trans }}</span>
                 </a>
                 <span class="divider">/</span>
             </li>
         {% endif %}
-        </li>
     {% endfor %}
 </ul>
